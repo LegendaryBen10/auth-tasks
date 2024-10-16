@@ -34,7 +34,7 @@ const Dashboard=({setAuth})=>{
     return(
         <Fragment>
             <div className="d-flex mt-5 justify-content-around">
-            <h2>Welcome back, {name}</h2>
+            <h2>Welcome, {name}</h2>
             <button className="btn btn-primary" onClick={e=>logout(e)}>Logout</button>
             </div>
             <InputTodo setTodosChange={setTodosChange}/>
